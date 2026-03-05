@@ -19,7 +19,7 @@ CREATE TABLE Produtos (
     nome VARCHAR(100) NOT NULL,
     descricao TEXT,
     preco DECIMAL(10, 2) NOT NULL,
-    estoque_qtd INT DEFAULT 100,
+    estoque_qtd INT DEFAULT 0,
     categoria VARCHAR(50)
 );
 
