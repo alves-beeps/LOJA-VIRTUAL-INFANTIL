@@ -1,6 +1,6 @@
-## Dicionário de Dados
+ Dicionário de Dados
 
-### Tabela: Produtos
+ Tabela: Produtos
 | Campo | Tipo de Dado | Tamanho | Descrição Funcional |
 | :--- | :--- | :--- | :--- |
 | **id_produto** | INT (PK) | - | Identificador único (Incremento automático) |
@@ -10,7 +10,7 @@
 | **estoque_qtd** | INT | - | Quantidade disponível em estoque |
 | **categoria** | VARCHAR | 50 | Ex: Brinquedos, Roupas, Calçados |
 
-### Tabela: Clientes
+Tabela: Clientes
 | Campo | Tipo de Dado | Tamanho | Descrição Funcional |
 | :--- | :--- | :--- | :--- |
 | **id_cliente** | INT (PK) | - | Identificador único do cliente |
