@@ -1,26 +1,4 @@
-# LOJA-VIRTUAL-INFANTIL
-# Projeto: Loja Virtual Infantil 
 
-##  Dicionário de Dados
-
-### Tabela: Produtos
-| Campo | Tipo de Dado | Tamanho | Descrição Funcional |
-| :--- | :--- | :--- | :--- |
-| **id_produto** | INT (PK) | - | Identificador único (Auto-incremento) |
-| **nome** | VARCHAR | 100 | Nome comercial do produto |
-| **descricao** | TEXT | - | Detalhes, faixa etária e recomendações |
-| **preco** | DECIMAL | 10,2 | Valor de venda unitário |
-| **estoque_qtd** | INT | - | Quantidade disponível em estoque |
-| **categoria** | VARCHAR | 50 | Ex: Brinquedos, Roupas, Calçados |
-
-### Tabela: Clientes
-| Campo | Tipo de Dado | Tamanho | Descrição Funcional |
-| :--- | :--- | :--- | :--- |
-| **id_cliente** | INT (PK) | - | Identificador único do cliente |
-| **nome_completo**| VARCHAR | 150 | Nome do responsável |
-| **cpf** | CHAR | 11 | Apenas números |
-| **email** | VARCHAR | 100 | Login e contato |
-| **telefone** | VARCHAR | 20 | Telefone com DDD |
 
 # Projeto: Banco de Dados Loja Virtual Infantil 🧸
 
