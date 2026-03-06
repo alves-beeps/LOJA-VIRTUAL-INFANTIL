@@ -24,7 +24,7 @@
 
 # Projeto: Banco de Dados Loja Virtual Infantil 🧸
 
-Este repositório contém a modelagem e os scripts necessários para o sistema de banco de dados da Loja Infantil, desenvolvido para o projeto acadêmico da **UFMS**.
+Este repositório contém a modelagem e os scripts necessários para o sistema de banco de dados da Loja Infantil, desenvolvido para o projeto acadêmico da **AEMS**.
 
 ---
 
@@ -58,5 +58,5 @@ O dicionário abaixo detalha a estrutura das tabelas, especificando tipos de dad
 2. Utilize o Dicionário de Dados acima como referência para futuras consultas e manutenções.
 
 ---
-**Desenvolvido por:** [Seu Nome Aqui]  
-**Instituição:** UFMS - Três Lagoas
+**Desenvolvido por:** RUDSON RAFAEL ALVES RIBEIRO  
+**Instituição:** AEMS - Três Lagoas
