@@ -6,7 +6,13 @@ Este repositório contém a modelagem e os scripts necessários para o sistema d
 
 ## 📖 Dicionário de Dados
 
-2. Tabela: ProdutosEsta tabela gerencia o inventário da loja.CampoTipo de DadoTamanhoDescrição Funcionalid_produtoINT (PK)-Identificador único do produto (Auto-incremento).nomeVARCHAR100Nome comercial do produto.descricaoTEXT-Detalhes, especificações e faixa etária.precoDECIMAL10,2Preço unitário de venda.estoque_qtdINT-Quantidade física disponível em estoque.categoriaVARCHAR50Segmentação (ex: Brinquedos, Roupas, Calçados).
+Campo,Tipo de Dado,Tamanho,Descrição Funcional
+id_cliente,INT (PK),-,Identificador único do cliente (Auto-incremento).
+nome_completo,VARCHAR,150,Nome completo do responsável.
+cpf,CHAR,11,"CPF (apenas números, valor único)."
+email,VARCHAR,100,E-mail para contato e login (valor único).
+telefone,VARCHAR,20,Telefone de contato com DDD.
+data_cadastro,TIMESTAMP,-,Data e hora em que o cliente se cadastrou.
 
 ## 🛠️ Como utilizar
 1. Execute o arquivo `script_criacao.sql` no seu servidor MySQL para criar o banco e as tabelas.
